@@ -13,23 +13,21 @@ npm install --save @lokibai/react-use-copy-clipboard
 ## Usage
 
 ```jsx
-import React from 'react'
-import { useCopyClipboard } from '@lokibai/react-use-copy-clipboard'
+import React from 'react';
+import { useCopyClipboard } from '@lokibai/react-use-copy-clipboard';
 
 const App = () => {
-    const [isCopied, setCopied] = useCopyClipboard('initial text');
+	const [isCopied, setCopied] = useCopyClipboard('initial text');
 
-    const handleClick = () => {
-        // setCopied('text');
-        setCopied();
-    };
+	const handleClick = () => {
+		// setCopied('text');
+		setCopied();
+	};
 
 	return (
-		<button onClick={handleClick}>
-			Was it copied? {isCopied ? 'Yes! 👍' : 'Nope! 👎'}
-		</button>
+		<button onClick={handleClick}>Was it copied? {isCopied ? 'Yes! 👍' : 'Nope! 👎'}</button>
 	);
-}
+};
 ```
 
 ## License
