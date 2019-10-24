@@ -1,6 +1,6 @@
 # @lokibai/react-use-copy-clipboard
 
-> copy clipboard
+> copy to clipboard
 
 [![NPM](https://img.shields.io/npm/v/@lokibai/react-use-copy-clipboard.svg)](https://www.npmjs.com/package/@lokibai/react-use-copy-clipboard) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -36,4 +36,4 @@ MIT © [](https://github.com/)
 
 ---
 
-This hook is created using [create-react-hook](https://github.com/hermanya/create-react-hook).
+This hook is created using [create-react-library](https://github.com/udilia/create-react-library).
